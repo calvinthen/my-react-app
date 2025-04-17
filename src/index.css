@@ -22,3 +22,7 @@
 .card .card-text{
   font-family: Arial, sans-serif;
 }
+
+.avatar {
+  border-radius: 50%;
+}
