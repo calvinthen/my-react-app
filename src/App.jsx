@@ -2,10 +2,12 @@ import Card from "./Card";
 import ConditonalRendering from "./ConditonalRendering";
 import Food from "./Food";
 import Footer from "./Footer";
+import Gallery from "./Galllery";
 import Header from "./Header";
 import MyButton from "./MyButton";
 import RenderingList from "./RenderingList";
 import RespondingToEvents from "./RespondingToEvents";
+import TodoList from "./Todolist";
 import UpdateScreenUseState from "./UpdateScreenUseState";
 
 
@@ -37,7 +39,9 @@ function App() {
         {/* <RenderingList/> */}
 
         {/* <RespondingToEvents/> */}
-        <UpdateScreenUseState/>
+        {/* <UpdateScreenUseState/> */}
+        {/* <Gallery/> */}
+        <TodoList/>
       </>
     );
 }

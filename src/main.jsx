@@ -6,7 +6,7 @@ import Tictactoe from './tictactoe.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
-    <Tictactoe/>
+    <App />
+    {/* <Tictactoe/> */}
   </StrictMode>,
 )
