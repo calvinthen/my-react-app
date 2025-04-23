@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Gallery from "./Galllery";
 import Header from "./Header";
 import MyButton from "./MyButton";
+import PassingProps from "./PassingProps";
 import RenderingList from "./RenderingList";
 import RespondingToEvents from "./RespondingToEvents";
 import TodoList from "./Todolist";
@@ -16,6 +17,14 @@ const user = {
   imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
   imageSize: 90,
 };
+
+function CardBorder({ children }) {
+  return (
+    <div className="card">
+      {children}
+    </div>
+  );
+}
 
 function App() {
 
@@ -41,7 +50,39 @@ function App() {
         {/* <RespondingToEvents/> */}
         {/* <UpdateScreenUseState/> */}
         {/* <Gallery/> */}
-        <TodoList/>
+        {/* <TodoList/> */}
+        {/* <CardBorder>
+          <PassingProps
+            size={100}
+            person={{ 
+              name: 'Katsuko Saruhashi', 
+              imageId: 'YfeOqp2'
+            }}
+          />
+        </CardBorder>
+
+        <CardBorder>
+          <PassingProps
+            size={80}
+            person={{
+              name: 'Aklilu Lemma', 
+              imageId: 'OKS67lh'
+            }}
+          />
+        </CardBorder>
+
+        <CardBorder>
+          <PassingProps
+            size={50}
+            person={{ 
+              name: 'Lin Lanying',
+              imageId: '1bX5QH6'
+            }}
+          />
+        </CardBorder> */}
+        
+        
+        
       </>
     );
 }
