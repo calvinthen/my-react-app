@@ -1,10 +1,12 @@
 import Card from "./Card";
 import ConditonalRendering from "./ConditonalRendering";
+import DrinkList from "./DrinkList";
 import Food from "./Food";
 import Footer from "./Footer";
 import Gallery from "./Galllery";
 import Header from "./Header";
 import MyButton from "./MyButton";
+import PackingList from "./PackingList";
 import PassingProps from "./PassingProps";
 import RenderingList from "./RenderingList";
 import RespondingToEvents from "./RespondingToEvents";
@@ -80,6 +82,9 @@ function App() {
             }}
           />
         </CardBorder> */}
+
+        {/* <PackingList/> */}
+        <DrinkList/>
         
         
         
