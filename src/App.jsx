@@ -8,6 +8,7 @@ import Header from "./Header";
 import MyButton from "./MyButton";
 import PackingList from "./PackingList";
 import PassingProps from "./PassingProps";
+import PersonList from "./PersonList";
 import RenderingList from "./RenderingList";
 import RespondingToEvents from "./RespondingToEvents";
 import TodoList from "./Todolist";
@@ -84,8 +85,10 @@ function App() {
         </CardBorder> */}
 
         {/* <PackingList/> */}
-        <DrinkList/>
+
+        {/* <DrinkList/> */}
         
+        <PersonList/>
         
         
       </>
