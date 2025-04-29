@@ -1,4 +1,5 @@
 import Card from "./Card";
+import ClockProblemDayAndNight from "./ClockProblemDayAndNight";
 import ConditonalRendering from "./ConditonalRendering";
 import DrinkList from "./DrinkList";
 import Food from "./Food";
@@ -11,6 +12,7 @@ import PassingProps from "./PassingProps";
 import PersonList from "./PersonList";
 import RenderingList from "./RenderingList";
 import RespondingToEvents from "./RespondingToEvents";
+import StoryTrayProblems from "./StoryTrayProblems";
 import TodoList from "./Todolist";
 import UpdateScreenUseState from "./UpdateScreenUseState";
 
@@ -88,8 +90,10 @@ function App() {
 
         {/* <DrinkList/> */}
         
-        <PersonList/>
+        {/* <PersonList/> */}
+        {/* <ClockProblemDayAndNight/> */}
         
+        <StoryTrayProblems stories={{id:'test',label:'test'}}/>
         
       </>
     );
