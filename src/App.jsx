@@ -6,12 +6,14 @@ import Food from "./Food";
 import Footer from "./Footer";
 import Gallery from "./Galllery";
 import Header from "./Header";
+import InteractiveButton from "./InteractiveButton";
 import MyButton from "./MyButton";
 import PackingList from "./PackingList";
 import PassingProps from "./PassingProps";
 import PersonList from "./PersonList";
 import RenderingList from "./RenderingList";
 import RespondingToEvents from "./RespondingToEvents";
+import SculptureList from "./SculptureList";
 import StoryTrayProblems from "./StoryTrayProblems";
 import TodoList from "./Todolist";
 import UpdateScreenUseState from "./UpdateScreenUseState";
@@ -93,8 +95,12 @@ function App() {
         {/* <PersonList/> */}
         {/* <ClockProblemDayAndNight/> */}
         
-        <StoryTrayProblems stories={{id:'test',label:'test'}}/>
+        {/* <StoryTrayProblems stories={{id:'test',label:'test'}}/> */}
+
+        {/* <InteractiveButton onPlayMovie={() => alert('Playing !')} 
+          onUploadImage={() => alert("Uploading !")}/> */}
         
+        <SculptureList/>
       </>
     );
 }
