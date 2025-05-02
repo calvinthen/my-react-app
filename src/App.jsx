@@ -1,9 +1,11 @@
+import ActiveCounterButton from "./ActiveCounterButton";
 import Card from "./Card";
 import ClockProblemDayAndNight from "./ClockProblemDayAndNight";
 import ConditonalRendering from "./ConditonalRendering";
 import DrinkList from "./DrinkList";
 import Food from "./Food";
 import Footer from "./Footer";
+import FormSender from "./FormSender";
 import Gallery from "./Galllery";
 import Header from "./Header";
 import InteractiveButton from "./InteractiveButton";
@@ -100,7 +102,10 @@ function App() {
         {/* <InteractiveButton onPlayMovie={() => alert('Playing !')} 
           onUploadImage={() => alert("Uploading !")}/> */}
         
-        <SculptureList/>
+        {/* <SculptureList/> */}
+
+        {/* <FormSender/> */}
+        <ActiveCounterButton/>
       </>
     );
 }
