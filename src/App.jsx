@@ -1,3 +1,4 @@
+import AcomponnentMemory from "./AcomponnentMemory";
 import ActiveCounterButton from "./ActiveCounterButton";
 import Card from "./Card";
 import ClockProblemDayAndNight from "./ClockProblemDayAndNight";
@@ -105,7 +106,10 @@ function App() {
         {/* <SculptureList/> */}
 
         {/* <FormSender/> */}
-        <ActiveCounterButton/>
+        {/* <ActiveCounterButton/> */}
+
+        <AcomponnentMemory/>
+        <AcomponnentMemory/>
       </>
     );
 }
