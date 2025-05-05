@@ -17,6 +17,7 @@ import PersonList from "./PersonList";
 import RenderingList from "./RenderingList";
 import RespondingToEvents from "./RespondingToEvents";
 import SculptureList from "./SculptureList";
+import StateAsSnapshot from "./StateAsSnapshot";
 import StoryTrayProblems from "./StoryTrayProblems";
 import TodoList from "./Todolist";
 import UpdateScreenUseState from "./UpdateScreenUseState";
@@ -108,8 +109,10 @@ function App() {
         {/* <FormSender/> */}
         {/* <ActiveCounterButton/> */}
 
-        <AcomponnentMemory/>
-        <AcomponnentMemory/>
+        {/* <AcomponnentMemory/>
+        <AcomponnentMemory/> */}
+
+        <StateAsSnapshot/>
       </>
     );
 }
