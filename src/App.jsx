@@ -14,6 +14,7 @@ import MyButton from "./MyButton";
 import PackingList from "./PackingList";
 import PassingProps from "./PassingProps";
 import PersonList from "./PersonList";
+import QueueingASeries from "./QueueingASeries";
 import RenderingList from "./RenderingList";
 import RespondingToEvents from "./RespondingToEvents";
 import SculptureList from "./SculptureList";
@@ -112,7 +113,9 @@ function App() {
         {/* <AcomponnentMemory/>
         <AcomponnentMemory/> */}
 
-        <StateAsSnapshot/>
+        {/* <StateAsSnapshot/> */}
+
+        <QueueingASeries/>
       </>
     );
 }
