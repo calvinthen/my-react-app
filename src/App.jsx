@@ -22,6 +22,7 @@ import StateAsSnapshot from "./StateAsSnapshot";
 import StoryTrayProblems from "./StoryTrayProblems";
 import TodoList from "./Todolist";
 import UpdateScreenUseState from "./UpdateScreenUseState";
+import MovingDot from "./utils/MovingDot";
 
 
 const user = {
@@ -115,7 +116,8 @@ function App() {
 
         {/* <StateAsSnapshot/> */}
 
-        <QueueingASeries/>
+        {/* <QueueingASeries/> */}
+        <MovingDot/>
       </>
     );
 }
