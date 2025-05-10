@@ -15,6 +15,7 @@ import PackingList from "./PackingList";
 import PassingProps from "./PassingProps";
 import PersonList from "./PersonList";
 import QueueingASeries from "./QueueingASeries";
+import QuizUpdatingObjectInState from "./QuizUpdatingObjectInState";
 import RenderingList from "./RenderingList";
 import RespondingToEvents from "./RespondingToEvents";
 import SculptureList from "./SculptureList";
@@ -22,6 +23,7 @@ import StateAsSnapshot from "./StateAsSnapshot";
 import StoryTrayProblems from "./StoryTrayProblems";
 import TodoList from "./Todolist";
 import UpdateScreenUseState from "./UpdateScreenUseState";
+import UpdatingObjectInState from "./UpdatingObjectInState";
 import MovingDot from "./utils/MovingDot";
 
 
@@ -117,7 +119,9 @@ function App() {
         {/* <StateAsSnapshot/> */}
 
         {/* <QueueingASeries/> */}
-        <MovingDot/>
+        {/* <MovingDot/> */}
+        {/* <UpdatingObjectInState/> */}
+        <QuizUpdatingObjectInState/>
       </>
     );
 }
