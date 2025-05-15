@@ -23,6 +23,8 @@ import StateAsSnapshot from "./StateAsSnapshot";
 import StoryTrayProblems from "./StoryTrayProblems";
 import TodoList from "./Todolist";
 import UpdateScreenUseState from "./UpdateScreenUseState";
+import UpdatingArrayFromStateRemoveSection from "./UpdatingArrayFromStateRemoveSection";
+import UpdatingArrayInState from "./UpdatingArrayInState";
 import UpdatingObjectInState from "./UpdatingObjectInState";
 import MovingDot from "./utils/MovingDot";
 
@@ -121,7 +123,9 @@ function App() {
         {/* <QueueingASeries/> */}
         {/* <MovingDot/> */}
         {/* <UpdatingObjectInState/> */}
-        <QuizUpdatingObjectInState/>
+        {/* <QuizUpdatingObjectInState/> */}
+        {/* <UpdatingArrayInState/> */}
+        <UpdatingArrayFromStateRemoveSection/>
       </>
     );
 }
