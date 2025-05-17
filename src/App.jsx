@@ -25,6 +25,7 @@ import TodoList from "./Todolist";
 import UpdateScreenUseState from "./UpdateScreenUseState";
 import UpdatingArrayFromStateRemoveSection from "./UpdatingArrayFromStateRemoveSection";
 import UpdatingArrayInState from "./UpdatingArrayInState";
+import UpdatingArrayInStateInsertArray from "./UpdatingArrayInStateInsertArray";
 import UpdatingObjectInState from "./UpdatingObjectInState";
 import MovingDot from "./utils/MovingDot";
 
@@ -125,7 +126,8 @@ function App() {
         {/* <UpdatingObjectInState/> */}
         {/* <QuizUpdatingObjectInState/> */}
         {/* <UpdatingArrayInState/> */}
-        <UpdatingArrayFromStateRemoveSection/>
+        {/* <UpdatingArrayFromStateRemoveSection/> */}
+        <UpdatingArrayInStateInsertArray/>
       </>
     );
 }
