@@ -10,6 +10,7 @@ import FormSender from "./FormSender";
 import Gallery from "./Galllery";
 import Header from "./Header";
 import InteractiveButton from "./InteractiveButton";
+import ManagingState from "./ManagingState";
 import MyButton from "./MyButton";
 import PackingList from "./PackingList";
 import PassingProps from "./PassingProps";
@@ -23,6 +24,7 @@ import StateAsSnapshot from "./StateAsSnapshot";
 import StoryTrayProblems from "./StoryTrayProblems";
 import TodoList from "./Todolist";
 import UpdateScreenUseState from "./UpdateScreenUseState";
+import UpdatinArrayInStateQuiz1 from "./UpdatinArrayInStateQuiz1";
 import UpdatingArrayFromStateRemoveSection from "./UpdatingArrayFromStateRemoveSection";
 import UpdatingArrayInState from "./UpdatingArrayInState";
 import UpdatingArrayInStateInsertArray from "./UpdatingArrayInStateInsertArray";
@@ -127,7 +129,9 @@ function App() {
         {/* <QuizUpdatingObjectInState/> */}
         {/* <UpdatingArrayInState/> */}
         {/* <UpdatingArrayFromStateRemoveSection/> */}
-        <UpdatingArrayInStateInsertArray/>
+        {/* <UpdatingArrayInStateInsertArray/> */}
+        {/* <UpdatinArrayInStateQuiz1/> */}
+        <ManagingState/>
       </>
     );
 }
