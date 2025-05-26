@@ -11,6 +11,8 @@ import Gallery from "./Galllery";
 import Header from "./Header";
 import InteractiveButton from "./InteractiveButton";
 import ManagingState from "./ManagingState";
+import ManagingStateShowMoreCloseAndOpen from "./ManagingStateShowMoreCloseAndOpen";
+import ManagingStateTicketFullName from "./ManagingStateTicketFullName";
 import MyButton from "./MyButton";
 import PackingList from "./PackingList";
 import PassingProps from "./PassingProps";
@@ -131,7 +133,9 @@ function App() {
         {/* <UpdatingArrayFromStateRemoveSection/> */}
         {/* <UpdatingArrayInStateInsertArray/> */}
         {/* <UpdatinArrayInStateQuiz1/> */}
-        <ManagingState/>
+        {/* <ManagingState/> */}
+        {/* <ManagingStateTicketFullName/> */}
+        <ManagingStateShowMoreCloseAndOpen/>
       </>
     );
 }
